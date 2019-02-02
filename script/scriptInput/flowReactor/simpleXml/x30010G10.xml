@@ -1,0 +1,45 @@
+<experiment>
+    <fileAuthor>Chemical Kinetics Laboratory, Institute of Chemistry, ELTE, Budapest, Hungary</fileAuthor>
+    <fileDOI>not published</fileDOI>
+    <fileVersion>
+        <major>2</major>
+        <minor>0</minor>
+    </fileVersion>
+    <ReSpecThVersion>
+        <major>2</major>
+        <minor>0</minor>
+    </ReSpecThVersion>
+    <bibliographyLink>
+        <description>Y.  Song; H. Hashemi; J. M. Christensen, Fuel 2016, 181, 358–365.</description>
+        <referenceDOI>10.1016/j.fuel.2016.04.100</referenceDOI>
+        <location>Main Article</location>
+        <figure>Fig. 7 black square</figure>
+    </bibliographyLink>
+    <experimentType>outlet concentration measurement</experimentType>
+    <apparatus>
+        <kind>flow reactor (quartz)</kind>
+    </apparatus>
+    <commonProperties>
+        <property label="P" name="pressure" sourcetype="reported" units="bar"><value>100</value></property>
+        <property name="initial composition" sourcetype="reported">
+            <component><speciesLink preferredKey="NH3"/><amount units="ppm">789</amount></component>
+            <component><speciesLink preferredKey="O2"/><amount units="mole fraction">0.0407</amount></component>
+            <component><speciesLink preferredKey="N2"/><amount units="mole fraction">0.95851</amount></component>
+        </property>
+    </commonProperties>
+    <dataGroup id="dg1">
+        <property id="x1" label="T" name="temperature" sourcetype="digitized" units="K"/>
+        <property id="x2" name="composition" sourcetype="digitized" units="ppm"><speciesLink preferredKey="NH3"/></property>
+        <property id="x3" label="t" name="residence time" sourcetype="calculated" units="s"/>
+        <dataPoint><x1>6.9214E+02</x1><x2>7.7894E+02</x2><x3>1.4925E+01</x3></dataPoint>
+        <dataPoint><x1>7.1852E+02</x1><x2>7.7621E+02</x2><x3>1.4377E+01</x3></dataPoint>
+        <dataPoint><x1>7.4874E+02</x1><x2>7.7074E+02</x2><x3>1.3797E+01</x3></dataPoint>
+        <dataPoint><x1>7.7426E+02</x1><x2>7.8167E+02</x2><x3>1.3342E+01</x3></dataPoint>
+        <dataPoint><x1>7.9895E+02</x1><x2>7.7529E+02</x2><x3>1.2929E+01</x3></dataPoint>
+        <dataPoint><x1>8.2545E+02</x1><x2>5.3751E+02</x2><x3>1.2514E+01</x3></dataPoint>
+        <dataPoint><x1>8.5038E+02</x1><x2>3.7353E+01</x2><x3>1.2147E+01</x3></dataPoint>
+        <dataPoint><x1>8.7593E+02</x1><x2>8.1994E+00</x2><x3>1.1793E+01</x3></dataPoint>
+        <dataPoint><x1>9.0061E+02</x1><x2>7.2883E+00</x2><x3>1.1470E+01</x3></dataPoint>
+    </dataGroup>
+</experiment>
+

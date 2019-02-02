@@ -1,0 +1,73 @@
+<experiment>
+    <ReSpecThVersion>
+        <major>1</major>
+        <minor>0</minor>
+    </ReSpecThVersion>
+    <fileAuthor>Marton Kovacs, ELTE Chemical Kinetic Laboratory</fileAuthor>
+    <bibliographyLink preferredKey="T. Hulgaard et al., AIChE J., 39 (1993) 1342-1354, Figure 6. Star (NH3)"/>
+    <experimentType>Outlet concentration measurement</experimentType>
+     <apparatus>
+      <kind>flow reactor</kind>
+   </apparatus>
+   <commonProperties>
+        <property name="pressure" units="atm">
+            <value>1.04</value>
+        </property>
+        <property name="initial composition">
+            <component>
+                <speciesLink preferredKey="NH3"/>
+                <amount units="ppm">800</amount>
+            </component>
+            <component>
+                <speciesLink preferredKey="O2"/>
+                <amount units="mole fraction">0.025</amount>
+            </component>
+            <component>
+                <speciesLink preferredKey="N2"/>
+                <amount units="mole fraction">0.9742</amount>
+            </component>
+        </property>
+    </commonProperties>
+    <dataGroup>
+        <property name="residence time" units="s" id="x1" label=""/>
+        <property name="temperature" units="K" id="x2" label=""/>
+        <property name="composition" units="ppm" id="x3" label="">
+            <speciesLink preferredKey="NH3"/>
+        </property>
+        <dataPoint>
+            <x1>0.0750</x1>
+            <x2>974</x2>
+            <x3>772</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0617</x1>
+            <x2>1183</x2>
+            <x3>740</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0596</x1>
+            <x2>1224</x2>
+            <x3>708</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0581</x1>
+            <x2>1256</x2>
+            <x3>639</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0568</x1>
+            <x2>1285</x2>
+            <x3>564</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0542</x1>
+            <x2>1346</x2>
+            <x3>180</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0533</x1>
+            <x2>1368</x2>
+            <x3>1</x3>
+        </dataPoint>
+    </dataGroup>
+</experiment>

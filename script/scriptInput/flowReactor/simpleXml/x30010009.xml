@@ -1,0 +1,95 @@
+<experiment>
+    <ReSpecThVersion>
+        <major>1</major>
+        <minor>0</minor>
+    </ReSpecThVersion>
+    <fileAuthor>Marton Kovacs, ELTE Chemical Kinetic Laboratory</fileAuthor>
+    <bibliographyLink preferredKey="V. J. Wargadalam et al., Combust. Flame 120 (2000) 465-478, Figure 3. Triangle"/>
+    <experimentType>Outlet concentration measurement</experimentType>
+     <apparatus>
+      <kind>flow reactor</kind>
+   </apparatus>
+   <commonProperties>
+        <property name="pressure" units="atm">
+            <value>1</value>
+        </property>
+        <property name="initial composition">
+            <component>
+                <speciesLink preferredKey="NH3"/>
+                <amount units="ppm">242</amount>
+            </component>
+            <component>
+                <speciesLink preferredKey="O2"/>
+                <amount units="mole fraction">0.1</amount>
+            </component>
+            <component>
+                <speciesLink preferredKey="N2"/>
+                <amount units="mole fraction">0.899758</amount>
+            </component>
+        </property>
+    </commonProperties>
+    <dataGroup>
+        <property name="residence time" units="s" id="x1" label=""/>
+        <property name="temperature" units="K" id="x2" label=""/>
+        <property name="composition" units="ppm" id="x3" label="">
+            <speciesLink preferredKey="NH3"/>
+        </property>
+        <property name="composition" units="ppm" id="x4" label="">
+            <speciesLink preferredKey="NO"/>
+        </property>
+        <dataPoint>
+            <x1>0.388</x1>
+            <x2>873</x2>
+            <x3>242</x3>
+            <x4>0</x4>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.367</x1>
+            <x2>924</x2>
+            <x3>242</x3>
+            <x4>0</x4>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.348</x1>
+            <x2>974</x2>
+            <x3>241</x3>
+            <x4>0</x4>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.331</x1>
+            <x2>1024</x2>
+            <x3>241</x3>
+            <x4>0</x4>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.316</x1>
+            <x2>1074</x2>
+            <x3>241</x3>
+            <x4>0</x4>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.302</x1>
+            <x2>1124</x2>
+            <x3>234</x3>
+            <x4>5</x4>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.289</x1>
+            <x2>1174</x2>
+            <x3>198</x3>
+            <x4>10</x4>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.277</x1>
+            <x2>1224</x2>
+            <x3>75</x3>
+            <x4>23</x4>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.266</x1>
+            <x2>1274</x2>
+            <x3>0</x3>
+            <x4>50</x4>
+        </dataPoint>
+    </dataGroup>
+</experiment>

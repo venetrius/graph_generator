@@ -1,0 +1,147 @@
+<experiment>
+    <ReSpecThVersion>
+        <major>1</major>
+        <minor>0</minor>
+    </ReSpecThVersion>
+    <fileAuthor>Bence Horvath; ELTE Chemical Kinetic Laboratory</fileAuthor>
+    <bibliographyLink preferredKey="J.A. Caton,J.K. Narney,C. Cariappa,W.R. Laster; The Canadian Journal of Chemical Engineering,Volume 73,345-350,1995; Fig9"/>
+    <experimentType>Outlet concentration measurement</experimentType>
+    <commonProperties>
+        <property name="initial composition">
+            <component>
+                <speciesLink preferredKey="NH3"/>
+                <amount units="mole fraction">0.000990</amount>
+            </component>
+            <component>
+                <speciesLink preferredKey="O2"/>
+                <amount units="mole fraction">0.150</amount>
+            </component>
+            <component>
+                <speciesLink preferredKey="N2"/>
+                <amount units="mole fraction">0.84901</amount>
+            </component>
+        </property>
+        <property name="pressure" units="Pa">
+            <value>102000</value>
+        </property>
+    </commonProperties>
+    <dataGroup>
+        <property name="temperature" units="K" id="x1" label="T"/>
+        <property name="composition" units="mole fraction" id="x2" label="x_NO">
+            <speciesLink preferredKey="NO"/>
+        </property>
+        <property name="composition" units="mole fraction" id="x3" label="x_N2O">
+            <speciesLink preferredKey="N2O"/>
+        </property>
+        <property name="composition" units="mole fraction" id="x4" label="x_NH3">
+            <speciesLink preferredKey="NH3"/>
+        </property>
+		<property name="residence time" units="s" id="x5" label=""/>
+        <dataPoint>
+            <x1>798.287</x1>
+            <x2>1.41243E-07</x2>
+            <x3>1.41243E-07</x3>
+            <x4>0.000980294</x4>
+			<x5>2.69640</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>848.822</x1>
+            <x2>0</x2>
+            <x3>0</x3>
+            <x4>0.000985572</x4>
+			<x5>2.53587</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>899.358</x1>
+            <x2>0</x2>
+            <x3>0</x3>
+            <x4>0.000985216</x4>
+			<x5>2.39337</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>924.197</x1>
+            <x2>0</x2>
+            <x3>4.23729E-07</x3>
+            <x4>0.000970956</x4>
+			<x5>2.32905</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>948.18</x1>
+            <x2>0</x2>
+            <x3>7.06215E-07</x3>
+            <x4>0.000942618</x4>
+			<x5>2.27014</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>973.019</x1>
+            <x2>0</x2>
+            <x3>1.27119E-06</x3>
+            <x4>0.000925542</x4>
+			<x5>2.21219</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>997.859</x1>
+            <x2>0</x2>
+            <x3>2.82486E-06</x3>
+            <x4>0.000885931</x4>
+			<x5>2.15712</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>1023.55</x1>
+            <x2>1.41243E-07</x2>
+            <x3>5.08475E-06</x3>
+            <x4>0.000846313</x4>
+			<x5>2.10297</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>1048.39</x1>
+            <x2>1.41243E-07</x2>
+            <x3>8.75706E-06</x3>
+            <x4>0.000761631</x4>
+			<x5>2.05315</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>1074.09</x1>
+            <x2>1.17232E-05</x2>
+            <x3>1.61017E-05</x3>
+            <x4>0.00059807</x4>
+			<x5>2.00402</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>1098.93</x1>
+            <x2>1.44068E-05</x2>
+            <x3>2.85311E-05</x3>
+            <x4>0.000352824</x4>
+			<x5>1.95872</x5>
+
+        </dataPoint>
+        <dataPoint>
+            <x1>1124.63</x1>
+            <x2>2.54237E-05</x2>
+            <x3>3.78531E-05</x3>
+            <x4>7.09533E-05</x4>
+			<x5>1.91396</x5>
+		</dataPoint>
+        <dataPoint>
+            <x1>1149.46</x1>
+            <x2>3.47458E-05</x2>
+            <x3>3.20621E-05</x3>
+            <x4>1.16235E-05</x4>
+			<x5>1.87262</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>1174.3</x1>
+            <x2>3.50282E-05</x2>
+            <x3>2.51412E-05</x3>
+            <x4>8.63166E-06</x4>
+			<x5>1.83301</x5>
+        </dataPoint>
+        <dataPoint>
+            <x1>1200</x1>
+            <x2>4.29379E-05</x2>
+            <x3>1.82203E-05</x3>
+            <x4>2.8169E-06</x4>
+			<x5>1.79375</x5>
+        </dataPoint>
+    </dataGroup>
+</experiment>

@@ -1,0 +1,42 @@
+<experiment>
+    <fileAuthor>Chemical Kinetics Laboratory, Institute of Chemistry, ELTE, Budapest, Hungary</fileAuthor>
+    <fileDOI>not published</fileDOI>
+    <fileVersion>
+        <major>2</major>
+        <minor>0</minor>
+    </fileVersion>
+    <ReSpecThVersion>
+        <major>2</major>
+        <minor>0</minor>
+    </ReSpecThVersion>
+    <bibliographyLink>
+        <description>Y.  Song; H. Hashemi; J. M. Christensen, Fuel 2016, 181, 358–365.</description>
+        <referenceDOI>10.1016/j.fuel.2016.04.100</referenceDOI>
+        <location>Main Article</location>
+        <figure>Fig. 6 black star</figure>
+    </bibliographyLink>
+    <experimentType>outlet concentration measurement</experimentType>
+    <apparatus>
+        <kind>flow reactor (quartz)</kind>
+    </apparatus>
+    <commonProperties>
+        <property label="P" name="pressure" sourcetype="reported" units="bar"><value>30</value></property>
+        <property name="initial composition" sourcetype="reported">
+            <component><speciesLink preferredKey="NH3"/><amount units="ppm">729</amount></component>
+            <component><speciesLink preferredKey="O2"/><amount units="mole fraction">0.0395</amount></component>
+            <component><speciesLink preferredKey="N2"/><amount units="mole fraction">0.95977</amount></component>
+        </property>
+    </commonProperties>
+    <dataGroup id="dg1">
+        <property id="x1" label="T" name="temperature" sourcetype="digitized" units="K"/>
+        <property id="x2" name="composition" sourcetype="digitized" units="ppm"><speciesLink preferredKey="N2O"/></property>
+        <property id="x3" label="t" name="residence time" sourcetype="calculated" units="s"/>
+        <dataPoint><x1>4.5378E+02</x1><x2>9.7147E-01</x2><x3>6.8314E+00</x3></dataPoint>
+        <dataPoint><x1>8.0270E+02</x1><x2>3.6895E+00</x2><x3>3.8620E+00</x3></dataPoint>
+        <dataPoint><x1>8.2816E+02</x1><x2>2.9705E+00</x2><x3>3.7432E+00</x3></dataPoint>
+        <dataPoint><x1>8.5237E+02</x1><x2>1.3454E+01</x2><x3>3.6369E+00</x3></dataPoint>
+        <dataPoint><x1>8.7661E+02</x1><x2>6.2357E+01</x2><x3>3.5364E+00</x3></dataPoint>
+        <dataPoint><x1>9.0001E+02</x1><x2>1.2006E+02</x2><x3>3.4444E+00</x3></dataPoint>
+    </dataGroup>
+</experiment>
+

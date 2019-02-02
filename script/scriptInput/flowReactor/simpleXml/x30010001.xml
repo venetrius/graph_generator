@@ -1,0 +1,97 @@
+<experiment>
+    <ReSpecThVersion>
+        <major>1</major>
+        <minor>0</minor>
+    </ReSpecThVersion>
+    <fileAuthor>Marton Kovacs, ELTE Chemical Kinetic Laboratory</fileAuthor>
+    <bibliographyLink preferredKey="T. Hulgaard et al., AIChE J., 39 (1993) 1342-1354, Figure 6. Open circle (NO)"/>
+    <experimentType>Outlet concentration measurement</experimentType>
+     <apparatus>
+      <kind>flow reactor</kind>
+   </apparatus>
+   <commonProperties>
+        <property name="pressure" units="atm">
+            <value>1.04</value>
+        </property>
+        <property name="initial composition">
+            <component>
+                <speciesLink preferredKey="NH3"/>
+                <amount units="ppm">760</amount>
+            </component>
+            <component>
+                <speciesLink preferredKey="O2"/>
+                <amount units="mole fraction">0.026</amount>
+            </component>
+            <component>
+                <speciesLink preferredKey="H2O"/>
+                <amount units="mole fraction">0.01</amount>
+            </component>
+            <component>
+                <speciesLink preferredKey="N2"/>
+                <amount units="mole fraction">0.96324</amount>
+            </component>
+        </property>
+    </commonProperties>
+    <dataGroup>
+        <property name="residence time" units="s" id="x1" label=""/>
+        <property name="temperature" units="K" id="x2" label=""/>
+        <property name="composition" units="ppm" id="x3" label="">
+            <speciesLink preferredKey="NO"/>
+        </property>
+        <dataPoint>
+            <x1>0.0757</x1>
+            <x2>938</x2>
+            <x3>1</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0707</x1>
+            <x2>1004</x2>
+            <x3>3</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0655</x1>
+            <x2>1085</x2>
+            <x3>9</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0632</x1>
+            <x2>1123</x2>
+            <x3>13</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0603</x1>
+            <x2>1178</x2>
+            <x3>18</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0587</x1>
+            <x2>1210</x2>
+            <x3>22</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0571</x1>
+            <x2>1244</x2>
+            <x3>28</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0553</x1>
+            <x2>1285</x2>
+            <x3>36</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0535</x1>
+            <x2>1328</x2>
+            <x3>48</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0523</x1>
+            <x2>1358</x2>
+            <x3>59</x3>
+        </dataPoint>
+        <dataPoint>
+            <x1>0.0517</x1>
+            <x2>1373</x2>
+            <x3>73</x3>
+        </dataPoint>
+    </dataGroup>
+</experiment>

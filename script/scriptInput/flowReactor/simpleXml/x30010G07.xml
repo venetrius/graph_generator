@@ -1,0 +1,41 @@
+<experiment>
+    <fileAuthor>Chemical Kinetics Laboratory, Institute of Chemistry, ELTE, Budapest, Hungary</fileAuthor>
+    <fileDOI>not published</fileDOI>
+    <fileVersion>
+        <major>2</major>
+        <minor>0</minor>
+    </fileVersion>
+    <ReSpecThVersion>
+        <major>2</major>
+        <minor>0</minor>
+    </ReSpecThVersion>
+    <bibliographyLink>
+        <description>Y.  Song; H. Hashemi; J. M. Christensen, Fuel 2016, 181, 358–365.</description>
+        <referenceDOI>10.1016/j.fuel.2016.04.100</referenceDOI>
+        <location>Main Article</location>
+        <figure>Fig. 6 red star</figure>
+    </bibliographyLink>
+    <experimentType>outlet concentration measurement</experimentType>
+    <apparatus>
+        <kind>flow reactor (alumina)</kind>
+    </apparatus>
+    <commonProperties>
+        <property label="P" name="pressure" sourcetype="reported" units="bar"><value>30</value></property>
+        <property name="initial composition" sourcetype="reported">
+            <component><speciesLink preferredKey="NH3"/><amount units="ppm">719</amount></component>
+            <component><speciesLink preferredKey="O2"/><amount units="mole fraction">0.0403</amount></component>
+            <component><speciesLink preferredKey="N2"/><amount units="mole fraction">0.95898</amount></component>
+        </property>
+    </commonProperties>
+    <dataGroup id="dg1">
+        <property id="x1" label="T" name="temperature" sourcetype="digitized" units="K"/>
+        <property id="x2" name="composition" sourcetype="digitized" units="ppm"><speciesLink preferredKey="N2O"/></property>
+        <property id="x3" label="t" name="residence time" sourcetype="calculated" units="s"/>
+        <dataPoint><x1>450.0280618</x1><x2>1.7598733</x2><x3>4.40861397</x3></dataPoint>
+        <dataPoint><x1>849.4435754</x1><x2>1.4378312</x2><x3>2.335646601</x3></dataPoint>
+        <dataPoint><x1>874.9031647</x1><x2>2.3197722</x2><x3>2.267679533</x3></dataPoint>
+        <dataPoint><x1>899.953854</x1><x2>18.4085151</x2><x3>2.204557479</x3></dataPoint>
+        <dataPoint><x1>924.5938617</x1><x2>46.5023465</x2><x3>2.145807021</x3></dataPoint>
+    </dataGroup>
+</experiment>
+
