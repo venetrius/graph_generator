@@ -1,0 +1,22 @@
+Plotwgnu is a set of tools, helping to process Optimapp++ [1] output files and create runnable Batch files to generate high-quality graphs with GNUPlot.
+
+This is not even a beta version!
+
+Currently available functionality. Read Ignition delay input files and create Batch and data files for generating graphs.
+                                   Read flow reactor input files, and create Batch and data file for generating graphs. It also requires the original XML files to be available, to read the name of the measured property.
+Ready but not tested yet from Command Line: process simple output files for Flame Speed Measurements and Burner Stabilized Measurements.
+Not reachable from Command Line: Create extended XML files -> using those XML files Optimapp will simulate more point giving a more smooth visualization
+								 Read extended result files to and create Batch and data files for generating graphs.
+Not implemented yet: availability to change input and output directories, they are hardcoded for now.
+                     customization of the graphs etc: size, colour, language
+                     
+install: to create a runnable jar from the project directory run: mvn install (maven has to be installed)
+to run from Command Line: java -jar plotwgnuplot2-0.0.1-SNAPSHOT.jar *functionality *experimentType
+						  available functionalities: plotSimple, plotExtended
+						  implemented experiment types:	idt, flamespeed, flowreactor, burnerstabilized
+						  
+java -jar plotwgnuplot2-0.0.1-SNAPSHOT.jar plotSimple flowreactor
+to generate the graphs double click on the bat file on output directory (GNUPlot has to be installed)
+
+
+[1] T. Varga and Á. Busai, Optima++v1.02; A general C++ framework for performing combustion simulations and mechanism optimization (2018). 
